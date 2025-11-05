@@ -1,4 +1,4 @@
-# 📊 Real-Time Order Book Visualizer
+# Real-Time Order Book Visualizer
 
 A high-performance, real-time **BTC/USDT Order Book Visualizer** built using **Next.js** and **TypeScript**, powered by live data from the **Binance WebSocket API**.
 
@@ -6,7 +6,7 @@ This project demonstrates the ability to handle **high-frequency streaming marke
 
 ---
 
-## 🧩 Objective
+##  Objective
 
 The goal of this assignment is to build a **real-time stock order book visualizer** that:
 - Connects to the **live Binance WebSocket API**
@@ -50,3 +50,23 @@ npm install
 ```bash
 npm run dev
 ```
+---
+
+## 💡 Design Choices & Trade-offs
+### 1.  Framework Choice — Next.js
+- Chosen for its performance, simplicity, and easy Vercel deployment.
+- Built-in TypeScript and file-based routing improve maintainability.
+
+### 2. React Hooks instead of Zustand
+- Used custom React Hooks **(useBinanceSocket)** instead of Zustand/Redux for minimal complexity.
+- Since only two components **(OrderBook and RecentTrades)** consume data, global state libraries would have added unnecessary overhead.
+- Internal useRef variables store data efficiently without triggering re-renders for every WebSocket message.
+
+### 3. Performance Optimization
+- Used requestAnimationFrame to batch WebSocket updates — ensuring React only re-renders once per animation frame.
+- Used lodash.throttle (100 ms) to reduce sorting and re-render frequency under high update rates.
+- Applied **useMemo** and **React.memo**to prevent redundant computations and re-renders.
+- These techniques reduce latency and keep the UI smooth **(~60 FPS)**.
+
+
+
