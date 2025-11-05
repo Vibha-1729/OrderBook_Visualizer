@@ -38,3 +38,15 @@ Follow these steps to run the project locally.
 ```bash
 git clone https://github.com/<your-username>/Orderbook-Visualizer.git
 cd Orderbook-Visualizer
+```
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
+
+```bash
+npm run dev
+```
