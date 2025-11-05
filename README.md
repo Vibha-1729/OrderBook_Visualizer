@@ -53,7 +53,8 @@ npm run dev
 ---
 
 ## 🌐 Live Demo
-👉 [https://orderbookvisualizer-fyp7g0l1o-vibha-narayans-projects.vercel.app/](https://orderbook-visualizer.vercel.app)
+👉 ## 🌐 Live Demo 
+[https://orderbookvisualizer-fyp7g0l1o-vibha-narayans-projects.vercel.app/](https://orderbookvisualizer-fyp7g0l1o-vibha-narayans-projects.vercel.app/)
 
 ---
 ## 💡 Design Choices & Trade-offs
