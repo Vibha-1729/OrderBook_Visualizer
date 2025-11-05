@@ -36,5 +36,5 @@ Follow these steps to run the project locally.
 ### 1. Clone this repository
 
 ```bash
-git clone https://github.com/<your-username>/orderbook-visualizer.git
-cd orderbook-visualizer
+git clone https://github.com/<your-username>/Orderbook-Visualizer.git
+cd Orderbook-Visualizer
