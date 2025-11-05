@@ -52,6 +52,10 @@ npm run dev
 ```
 ---
 
+## 🌐 Live Demo
+👉 [https://orderbookvisualizer-fyp7g0l1o-vibha-narayans-projects.vercel.app/](https://orderbook-visualizer.vercel.app)
+
+---
 ## 💡 Design Choices & Trade-offs
 ### 1.  Framework Choice — Next.js
 - Chosen for its performance, simplicity, and easy Vercel deployment.
