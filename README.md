@@ -1,29 +1,40 @@
 # 📊 Real-Time Order Book Visualizer
 
-A high-performance, real-time **BTC/USDT Order Book Visualizer** built using **Next.js (TypeScript)** and powered by the **Binance WebSocket API**.  
-It displays live bids/asks and recent trades in a responsive, professional trading dashboard interface.
+A high-performance, real-time **BTC/USDT Order Book Visualizer** built using **Next.js** and **TypeScript**, powered by live data from the **Binance WebSocket API**.
+
+This project demonstrates the ability to handle **high-frequency streaming market data**, maintain **UI responsiveness**, and implement **clean, production-ready frontend architecture** — essential skills for modern financial technology applications.
 
 ---
 
-<!-- ## 🚀 Getting Started -->
+## 🧩 Objective
 
-### 1. Clone the Repository 
+The goal of this assignment is to build a **real-time stock order book visualizer** that:
+- Connects to the **live Binance WebSocket API**
+- Displays **bids (buy orders)** and **asks (sell orders)** in real time
+- Streams the **most recent trades**
+- Maintains smooth performance and clear UI even under high data rates
+
+---
+
+## ⚙️ Tech Stack
+
+| Category | Technology |
+|-----------|-------------|
+| Framework | [Next.js 14](https://nextjs.org/) |
+| Language | [TypeScript](https://www.typescriptlang.org/) |
+| Styling | [Tailwind CSS](https://tailwindcss.com/) |
+| Animations | [Framer Motion](https://www.framer.com/motion/) |
+| State Management | React Hooks + internal refs |
+| Data Source | [Binance WebSocket API](https://binance-docs.github.io/apidocs/spot/en/#websocket-market-streams) |
+
+---
+
+## 🚀 Installation & Setup
+
+Follow these steps to run the project locally.
+
+### 1. Clone this repository
 
 ```bash
 git clone https://github.com/<your-username>/orderbook-visualizer.git
 cd orderbook-visualizer
-
-### 2. Install Dependencies
-
-npm install
-# or
-yarn install
-
-### 3. Run the Development Server
-
-npm run dev
-# or
-yarn dev
-
-Open your browser and visit 👉 http://localhost:3000
-You’ll see a live BTC/USDT order book with bid/ask tables and real-time trades updating every few milliseconds.
