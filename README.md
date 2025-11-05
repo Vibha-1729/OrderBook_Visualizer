@@ -1,4 +1,4 @@
-# Real-Time Order Book Visualizer
+# 📊 Real-Time Order Book Visualizer
 
 A high-performance, real-time **BTC/USDT Order Book Visualizer** built using **Next.js** and **TypeScript**, powered by live data from the **Binance WebSocket API**.
 
@@ -6,7 +6,7 @@ This project demonstrates the ability to handle **high-frequency streaming marke
 
 ---
 
-##  Objective
+## 🧩 Objective
 
 The goal of this assignment is to build a **real-time stock order book visualizer** that:
 - Connects to the **live Binance WebSocket API**
