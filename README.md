@@ -57,7 +57,7 @@ npm run dev
 - Chosen for its performance, simplicity, and easy Vercel deployment.
 - Built-in TypeScript and file-based routing improve maintainability.
 
-### 2. React Hooks instead of Zustand
+### 2. React Hooks
 - Used custom React Hooks **(useBinanceSocket)** instead of Zustand/Redux for minimal complexity.
 - Since only two components **(OrderBook and RecentTrades)** consume data, global state libraries would have added unnecessary overhead.
 - Internal useRef variables store data efficiently without triggering re-renders for every WebSocket message.
